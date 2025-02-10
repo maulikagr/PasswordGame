@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#password-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#password-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+#game-section {
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+#game-status {
+  margin-top: 10px;
+}
