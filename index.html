@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div id="password-section">
+      <h2>Create your password</h2>
+      <input type="password" id="password-input" placeholder="Password" disabled>
+      <p id="password-warning" style="color: red;"></p>
+    </div>
+    <div id="game-section">
+      <canvas id="gameCanvas" width="400" height="400"></canvas>
+      <p id="game-status"></p>
+    </div>
+  </div>
+  <script src="snake.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
