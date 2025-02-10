@@ -37,7 +37,7 @@ function gameLoop() {
   drawSnake();
   drawFood();
   
-  setTimeout(gameLoop, 100);
+  setTimeout(gameLoop, 50);
 }
 
 // Function to move snake
